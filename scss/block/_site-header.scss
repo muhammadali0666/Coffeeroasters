@@ -1,0 +1,126 @@
+.site-header {
+  .site-header__nav {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .site-header__link {
+    background-color: transparent;
+  }
+
+  .site-header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 0px;
+  }
+  .site-header__list {
+    width: 283px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .site-header__nav-link {
+    text-decoration: none;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+  }
+  .site-header__nav-link:hover {
+    color: #333D4B;
+    cursor: pointer;
+  }
+  .site-header__nav-link:active {
+    color: #198f9e;
+    cursor: pointer;
+  }
+  .site__header-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    display: none;
+    background-image: url(../img/download.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+  }
+  .site-header__container {
+    align-items: center;
+  }
+
+}
+@media only screen and (max-width: 689px) {
+  .site-header {
+    position: relative;
+    .site-header__nav {
+      display: none;
+    }
+    .site-header__nav-link {
+      color: #FFFFFF;
+    }
+    .site-header__container {
+      margin-bottom: 0;
+    }
+  
+    .site__header-button {
+      display: block;
+      
+    }
+  
+    .site-header__link {
+      margin-right: 0;
+    }
+    .site-header__img {
+      margin-right: 0;
+    }
+  }
+  .site-header__list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .site-header--open .site-header__nav {
+    position: absolute;
+    display: block;
+    top: 100%;
+    display: flex;
+    margin-left: auto;
+    background-color: #0E8784;
+    border-radius: 10px;
+    transition: all 0.5s;
+    width: 92%;
+    justify-content: center;
+
+  }
+  .site-header--open .site__header-button {
+    background-image: url(../img/close.png);
+    background-size: 15px 15px;
+  }
+
+}
+@media only screen and (max-width: 500px) {
+  .site-header {
+    .site-header__img {
+      width: 140px;
+      height: 16px;
+    }
+    .site-header__inner {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .site__header-button-img {
+      width: 16px;
+      height: 15px;
+    }
+  }
+}

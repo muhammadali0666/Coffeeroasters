@@ -1,0 +1,23 @@
+.site-hero__btn {
+  max-width: 217px;
+  width: 100%;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  background-color: #0E8784;
+  border-radius: 6px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: none;
+}
+.site-hero__btn:active {
+  background-color: #66D2CF;
+  cursor: pointer;
+}
+.site-hero__btn-form {
+  margin-left: auto;
+}

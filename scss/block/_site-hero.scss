@@ -1,0 +1,125 @@
+.site-hero {
+
+  .site-hero__inner {
+    padding-top: 117px;
+    padding-bottom: 116px;
+    padding-left: 85px;
+  }
+
+  .site-hero__shrift {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    width: 493px;
+    margin-bottom: 32px;
+  }
+
+  .site-hero__text {
+    width: 445px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 56px;
+  }
+
+
+}
+
+@media only screen and (max-width: 689px) {
+  .site-hero {
+
+    .site-hero__inner {
+      padding-top: 107px;
+      padding-left: 25px;
+      padding-bottom: 103px;
+    }
+
+    .site-hero__shrift {
+      width: 275px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
+    }
+
+    .site-hero__text {
+      width: 358px;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      margin-bottom: 30px;
+    }
+
+    .site-hero__btn {
+      margin-top: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .site-hero__inner {
+    padding-top: 100px;
+    padding-left: 8px;
+    padding-left: 36px;
+  }
+
+  .site-hero__shrift {
+    
+    width: 279px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .site-hero__text {
+    max-width: 263px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .site-hero__btn {
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .site-hero__inner {
+    background-image: url(../img/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 100px;
+    padding-left: 5px;
+    padding-left: 36px;
+  }
+
+  .site-hero__shrift {
+    
+    width: 250px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .site-hero__text {
+    max-width: 250px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .site-hero__btn {
+    margin-top: 0px;
+  }
+}

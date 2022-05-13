@@ -1,0 +1,56 @@
+.container {
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.site-hero__container {
+  background-image: url(../img/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.usefull--offers--container {
+  background-color: #272E37;
+}
+
+.stages--container {
+  max-width: 1151px;
+}
+.about--hero--container {
+  background-image: url(../img/about-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 45px;
+}
+.site-header__containers {
+  margin-bottom: 45px;
+}
+.about--service--container {
+  max-width: 1150px;
+}
+.product__container {
+  background-color: #272E37;
+}
+.location__container {
+  max-width: 1085px;
+}
+.create--hero--container {
+  background-image: url(../img/creat-a-plan.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.create--container {
+  background-color: #282F38;
+}
+.plans--container {
+  background-color: #282F38;
+  border-radius: 10px;
+}

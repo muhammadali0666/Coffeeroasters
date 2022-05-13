@@ -1,0 +1,239 @@
+.stages {
+  .stages__paragraph {
+    max-width: 255px;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+  }
+  .stages__box {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+  .site-hero--btn-next {
+    margin-bottom: 120px;
+  }
+
+  .stage__list-next {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-right: auto;
+    flex-wrap: wrap;
+  }
+
+  .stage__item-next {
+    max-width: 223px;
+    margin-bottom: 64px;
+    margin-top: 42px;
+  }
+
+  .stage--item--next--other--next {
+    margin-right: 0px;
+  }
+  .stage__paragraph {
+    max-width: 223px;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 40px;
+  }
+
+  .stage__item-text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .stages__box-imgs {
+    width: 410px;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1076px) {
+  .stages {
+    .stages__inner {
+      margin-top: 700px;
+    }
+    .stages__paragraph {
+      margin-top: 120px;
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .stages__box {
+      max-width: 497px;
+      display: flex;
+      margin-bottom: 50px;
+      flex-wrap: wrap;
+    }
+    .stage__paragraph {
+      max-width: 223px;
+      font-size: 28px;
+      line-height: 32px;
+      margin-bottom: 40px;
+    }
+    .site-hero--btn-next {
+      margin-bottom: 120px;
+    }
+    .stage__item-img {
+      margin-bottom: 24px;
+    }
+    .stage__list-next {
+      display: flex;
+      list-style-type: none;
+      justify-content: space-between;
+      margin-right: auto;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+  
+    .stage__item-next {
+      width: 200px;
+      margin-bottom: 64px;
+      margin-top: 42px;
+    }
+  
+    .stage--item--next--other--next {
+      margin-right: 0px;
+    }
+    .stage__paragraph {
+      
+      width: 200px;
+      font-size: 28px;
+      line-height: 32px;
+      margin-bottom: 24px;
+    }
+  
+    .stage__item-text {
+      font-size: 14px;
+      line-height: 22px;
+    }
+      .stages__box {
+        display: none;
+      }
+    
+}
+}
+@media only screen and (max-width: 870px) {
+  .stages {
+    .stages__box {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 675px) {
+  .stages {
+    .stages__inner {
+      padding-left: 150px;
+      flex-direction: column;
+    }
+    .stages__paragraph {
+      margin-left: 60px;
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 80px;
+    }
+    .stages__box {
+      display: none;
+      
+    }
+  
+    .stage__list-next {
+      margin-left: 30px;
+      display: flex;
+      list-style-type: none;
+      padding-left: 30px;
+      justify-content: space-between;
+      margin-right: auto;
+      flex-direction: column;
+    }
+  
+    .stage__item-next {
+      width: 200px;
+      margin-bottom: 64px;
+      margin-top: 4px;
+    }
+  
+    .stage--item--next--other--next {
+      margin-right: 0px;
+    }
+    .stage__paragraph {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      width: 200px;
+      font-size: 28px;
+      line-height: 32px;
+    }
+  
+    .stage__item-text {
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .stage__item-img {
+      margin-left: 50px;
+      margin-right: auto;
+    }
+    .site-hero--btn-next {
+      margin-left: 50px;
+    }
+}
+}
+@media only screen and (max-width: 550px) {
+  .stages {
+    .stages__inner {
+      padding-left: 100px;
+      flex-direction: column;
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  .stages {
+    .stages__inner {
+      padding-left: 70px;
+      flex-direction: column;
+      margin-top: 750px;
+    }
+  }
+}
+@media only screen and (max-width: 470px) {
+  .stages {
+    .stages__inner {
+      padding-left: 70px;
+      flex-direction: column;
+      margin-top: 800px;
+    }
+  }
+}
+@media only screen and (max-width: 420px) {
+  .stages {
+    .stages__inner {
+      padding-left: 50px;
+      flex-direction: column;
+      margin-top: 850px;
+    }
+  }
+}
+@media only screen and (max-width: 380px) {
+  .stages {
+    .stages__inner {
+      padding-left: 30px;
+      flex-direction: column;
+    }
+  }
+}
+@media only screen and (max-width: 350px) {
+  .stages {
+    .stages__inner {
+      padding-left: 10px;
+      padding-top: 10px;
+      flex-direction: column;
+    }
+  }
+}

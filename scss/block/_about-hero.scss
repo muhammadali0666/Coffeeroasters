@@ -1,0 +1,120 @@
+.about-hero {
+  .about-hero__inner {
+    padding-top: 117px;
+    padding-bottom: 116px;
+    padding-left: 85px;
+  }
+
+  .about-hero__shrift {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    max-width: 493px;
+    margin-bottom: 32px;
+  }
+
+  .about-hero__text {
+    max-width: 445px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 56px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .container {
+    max-width: 1352px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .about-hero {
+    .about-hero__inner {
+      padding-top: 117px;
+      padding-bottom: 116px;
+      padding-left: 58px;
+    }
+
+    .about-hero__shrift {
+      font-size: 48px;
+      line-height: 48px;
+    }
+
+    .about-hero__text {
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .about-hero {
+    .about-hero__inner {
+      padding-top: 117px;
+      padding-bottom: 116px;
+      padding-left: 58px;
+    }
+
+    .about-hero__shrift {
+      max-width: 398px;
+      font-size: 48px;
+      line-height: 48px;
+    }
+
+    .about-hero__text {
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .about-hero {
+    .about-hero__inner {
+      padding-top: 101px;
+      padding-bottom: 101px;
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+
+    .about-hero__shrift {
+      text-align: center;
+      max-width: 278px;
+      font-size: 38px;
+      line-height: 38px;
+    }
+
+    .about-hero__text {
+      text-align: center;
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+}
